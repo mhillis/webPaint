@@ -1,0 +1,36 @@
+
+.centerPage{
+    max-width: 800px;
+    margin: auto;
+}
+.brushMenu{
+    width: auto;
+    background-color: grey;
+    padding: 5px 20px 20px 50px;
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+label{
+    padding-right: 5px;
+}
+
+.btn-group button{
+    outline: none;
+    border: none;
+    color: blue;
+    margin: 0px;
+    cursor: pointer;   
+    margin-bottom: 8px;
+    width: 100px;
+}
+
+.brushMenu{
+ margin: auto;
+}
+
+#inputBrushSize{
+    width: 50px
+}

@@ -19,8 +19,7 @@
                  <label>Paint Menu: </label>
                 <button id="btnNew" onclick="clearCanvas()">New</button>
                 <button id="btnOpen">Open</button>
-                <button id="btnSave">Save</button>
-                <button id="btnSaveAs">Save As</button>
+                <button id="btnSave" onclick="saveCanvas()">Save</button>
             </div>
             <label>Brush size: </label>
             <input type="number" value="5" min="1" max="100" id="inputBrushSize" onchange="updateBrush()">

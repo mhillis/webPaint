@@ -15,11 +15,13 @@ canvas.addEventListener("mousemove", function (evt) {
 canvas.addEventListener("mouseup", mouseUp);
 canvas.addEventListener("mouseout", mouseUp)
 
+
 function mouseDown(x,y){
     //stuff
     isMouseDown = true;
     ctx.moveTo(x,y);
     ctx.beginPath();
+    
 }
 function mouseMove(x,y){
     //stuff

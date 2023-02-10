@@ -34,3 +34,7 @@ label{
 #inputBrushSize{
     width: 50px
 }
+
+#radioButtonDiv{
+    font-weight: bold;
+}

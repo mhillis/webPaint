@@ -58,8 +58,3 @@ function updateBrush(){
     ctx.strokeStyle = document.getElementById("colorPicker").value;
 }
 
-//save canvas as image file
-function saveCanvas(){
-    //code pop up that asks where to save image
-}
-

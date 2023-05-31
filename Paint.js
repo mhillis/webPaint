@@ -2,6 +2,7 @@ var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 var isMouseDown = false;
 ctx.lineWidth = 5; //setting default line width
+
 //Event listeners for drawing (mousedown, mousemove, mouseup) on canvas DOM
 canvas.addEventListener("mousedown", function (evt){
     var mousePos = getMousePos(canvas, evt);
@@ -13,7 +14,7 @@ canvas.addEventListener("mousemove", function (evt) {
     mouseMove(mousePos.x, mousePos.y);
 });
 canvas.addEventListener("mouseup", mouseUp);
-canvas.addEventListener("mouseout", mouseUp)
+//canvas.addEventListener("mouseout", mouseUp);
 
 
 function mouseDown(x,y){
@@ -61,3 +62,4 @@ function updateBrush(){
 function saveCanvas(){
     //code pop up that asks where to save image
 }
+
